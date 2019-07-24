@@ -1,0 +1,27 @@
+{
+  "name": "bedrock-runonce-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --preserve-symlinks index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattcollier/bedrock-runonce-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattcollier/bedrock-runonce-test/issues"
+  },
+  "homepage": "https://github.com/mattcollier/bedrock-runonce-test#readme",
+  "dependencies": {
+    "bedrock": "github:digitalbazaar/bedrock#fix-run-once"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-digitalbazaar": "^2.0.0"
+  }
+}
